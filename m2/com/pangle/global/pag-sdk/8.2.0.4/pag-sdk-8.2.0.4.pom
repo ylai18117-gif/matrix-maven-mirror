@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pangle.global</groupId>
+  <artifactId>pag-sdk</artifactId>
+  <version>8.2.0.4</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.pangle.global</groupId>
+      <artifactId>tiktok-business-android-sdk-comp</artifactId>
+      <version>1.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pangle.global</groupId>
+      <artifactId>pag-sdk-ad</artifactId>
+      <version>unfat-8204-20260721194003-release</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

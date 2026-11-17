@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pangle.global</groupId>
+  <artifactId>pag-sdk-ad</artifactId>
+  <version>unfat-8204-20260721194003-release</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.browser</groupId>
+      <artifactId>browser</artifactId>
+      <version>1.6.0-alpha02</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pangle.global</groupId>
+      <artifactId>pag-gecko</artifactId>
+      <version>2.0.0.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.pangle.global</groupId>
+      <artifactId>pag-apm</artifactId>
+      <version>2.0.0.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.recyclerview</groupId>
+      <artifactId>recyclerview</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
